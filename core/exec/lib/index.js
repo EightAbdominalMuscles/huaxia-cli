@@ -5,7 +5,7 @@ const Package = require('@huaxia-cli/package')
 const log = require('@huaxia-cli/log')
 const {exec: spawn} = require('@huaxia-cli/utils')
 const SETTINGS = {
-    init: '@jessieray-cli-dev/init'
+    init: '@huaxia-cli/init'
 }
 const CACHE_DIR = 'dependencies'
 let pkg
