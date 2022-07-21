@@ -1,6 +1,6 @@
 {
   "name": "huaxia-cli",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "huaxia-cli dev",
   "main": "index.js",
   "scripts": {
