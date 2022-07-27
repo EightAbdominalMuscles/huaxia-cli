@@ -1,6 +1,6 @@
 {
   "name": "@huaxia-cli/exec",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "huaxia-cli execute package",
   "author": "张玉 <zyjavascript@163.com>",
   "homepage": "",
@@ -24,9 +24,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@huaxia-cli/log": "^1.0.3",
-    "@huaxia-cli/package": "^1.0.3",
-    "@huaxia-cli/utils": "^1.0.1"
+    "@huaxia-cli/log": "^1.0.6",
+    "@huaxia-cli/package": "^1.0.6",
+    "@huaxia-cli/utils": "^1.0.6"
   },
   "gitHead": "1fb6f302162601683cc105227c855fd1ef109677"
 }

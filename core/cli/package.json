@@ -1,6 +1,6 @@
 {
   "name": "@huaxia-cli/core",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "huaxia-cli core",
   "author": "张玉 <zyjavascript@163.com>",
   "homepage": "",
@@ -20,10 +20,10 @@
     "huaxia-cli": "bin/index.js"
   },
   "dependencies": {
-    "@huaxia-cli/exec": "^1.0.3",
-    "@huaxia-cli/get-npm-info": "^1.0.3",
-    "@huaxia-cli/init": "^1.0.5",
-    "@huaxia-cli/log": "^1.0.3",
+    "@huaxia-cli/exec": "^1.0.6",
+    "@huaxia-cli/get-npm-info": "^1.0.6",
+    "@huaxia-cli/init": "^1.0.6",
+    "@huaxia-cli/log": "^1.0.6",
     "colors": "^1.4.0",
     "commander": "^8.3.0",
     "dotenv": "^10.0.0",

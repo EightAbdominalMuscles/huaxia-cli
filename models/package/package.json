@@ -1,6 +1,6 @@
 {
   "name": "@huaxia-cli/package",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "huaxia-cli npm model",
   "author": "张玉 <zyjavascript@163.com>",
   "homepage": "",
@@ -24,9 +24,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@huaxia-cli/format-path": "^1.0.3",
-    "@huaxia-cli/get-npm-info": "^1.0.3",
-    "@huaxia-cli/utils": "^1.0.1",
+    "@huaxia-cli/format-path": "^1.0.6",
+    "@huaxia-cli/get-npm-info": "^1.0.6",
+    "@huaxia-cli/utils": "^1.0.6",
     "fs-extra": "^10.0.0",
     "npminstall": "^4.10.0",
     "path-exists": "^4.0.0",

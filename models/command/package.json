@@ -1,6 +1,6 @@
 {
   "name": "@huaxia-cli/command",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "> TODO: description",
   "author": "张玉 <zyjavascript@163.com>",
   "homepage": "",
@@ -24,8 +24,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@huaxia-cli/log": "^1.0.3",
-    "@huaxia-cli/utils": "^1.0.1",
+    "@huaxia-cli/log": "^1.0.6",
+    "@huaxia-cli/utils": "^1.0.6",
     "colors": "^1.4.0",
     "semver": "^7.3.5"
   },
