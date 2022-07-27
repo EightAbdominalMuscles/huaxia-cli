@@ -2,8 +2,7 @@
 
 const path = require('path')
 const fs = require('fs');
-const {homedir: userHome} = require('os')
-
+const userHome = require('os').homedir()
 
 const inquirer = require('inquirer')
 const fse= require('fs-extra')
