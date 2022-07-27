@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@huaxia-cli/log@file:../../utils/log":
+"@hxfy-cli/log@file:../../utils/log":
   version "1.0.6"
   dependencies:
     npmlog "^6.0.0"
 
-"@huaxia-cli/utils@file:../../utils/utils":
+"@hxfy-cli/utils@file:../../utils/utils":
   version "1.0.6"
   dependencies:
     cli-spinner "^0.2.10"

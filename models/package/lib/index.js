@@ -6,9 +6,9 @@ const pkgDir = require('pkg-dir').sync
 const pathExists = require('path-exists').sync
 const npminstall = require('npminstall')
 
-const { isObject } = require('@huaxia-cli/utils')
-const { getDefaultRegistry, getNpmLatestVersion } = require('@huaxia-cli/get-npm-info')
-const formatPath = require('@huaxia-cli/format-path')
+const { isObject } = require('@hxfy-cli/utils')
+const { getDefaultRegistry, getNpmLatestVersion } = require('@hxfy-cli/get-npm-info')
+const formatPath = require('@hxfy-cli/format-path')
 class Package {
     constructor (options) {
         if (!options) {
@@ -40,9 +40,9 @@ class Package {
     }
     // 路径转换
     get cacheFilePath() {
-        // _@huaxia-cli_init@1.1.2@@huaxia-cli/
-        // @huaxia-cli/init 1.1.2
-        // _@huaxia-cli@1.1.2@@huaxia-cli/
+        // _@hxfy-cli_init@1.1.2@@hxfy-cli/
+        // @hxfy-cli/init 1.1.2
+        // _@hxfy-cli@1.1.2@@hxfy-cli/
         return path.resolve(this.storeDir, `_${this.cacheFilePathPrefix}@${this.packageVersion}@${this.packageName}`)
     }
     getSpecificCacheFilePath (packageVersion) {

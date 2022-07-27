@@ -1,7 +1,7 @@
 {
-  "name": "@huaxia-cli/core",
+  "name": "@hxfy-cli/core",
   "version": "1.0.6",
-  "description": "huaxia-cli core",
+  "description": "hxfy-cli core",
   "author": "张玉 <zyjavascript@163.com>",
   "homepage": "",
   "license": "ISC",
@@ -17,13 +17,13 @@
     "access": "public"
   },
   "bin": {
-    "huaxia-cli": "bin/index.js"
+    "hxfy-cli": "bin/index.js"
   },
   "dependencies": {
-    "@huaxia-cli/exec": "^1.0.6",
-    "@huaxia-cli/get-npm-info": "^1.0.6",
-    "@huaxia-cli/init": "^1.0.6",
-    "@huaxia-cli/log": "^1.0.6",
+    "@hxfy-cli/exec": "^1.0.6",
+    "@hxfy-cli/get-npm-info": "^1.0.6",
+    "@hxfy-cli/init": "^1.0.6",
+    "@hxfy-cli/log": "^1.0.6",
     "colors": "^1.4.0",
     "commander": "^8.3.0",
     "dotenv": "^10.0.0",
@@ -36,5 +36,5 @@
   "scripts": {
     "test": "echo \"Run testing from core\""
   },
-  "gitHead": "9e3a3634f0dc36ade0624eb417462f0d0e038022"
+  "gitHead": "03c9f457bcff31bde5f07597cffcd1831ddcb8f7"
 }

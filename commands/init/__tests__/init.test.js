@@ -2,6 +2,6 @@
 
 const init = require('..');
 
-describe('@huaxia-cli/init', () => {
+describe('@hxfy-cli/init', () => {
     it('needs tests');
 });

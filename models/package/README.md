@@ -1,11 +1,11 @@
-# `@huaxia-cli/package`
+# `@hxfy-cli/package`
 
 > TODO: description
 
 ## Usage
 
 ```
-const package = require('@huaxia-cli/package');
+const package = require('@hxfy-cli/package');
 
 // TODO: DEMONSTRATE API
 ```

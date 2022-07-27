@@ -2,6 +2,6 @@
 
 const log = require('..');
 
-describe('@huaxia-cli/log', () => {
+describe('@hxfy-cli/log', () => {
     it('needs tests');
 });

@@ -1,4 +1,4 @@
-const request = require('@huaxia-cli/request')
+const request = require('@hxfy-cli/request')
 
 module.exports = async function () {
   return request({

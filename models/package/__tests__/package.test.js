@@ -2,6 +2,6 @@
 
 const package = require('..');
 
-describe('@huaxia-cli/package', () => {
+describe('@hxfy-cli/package', () => {
     it('needs tests');
 });

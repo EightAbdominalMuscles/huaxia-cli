@@ -10,10 +10,10 @@ const semver = require('semver')
 const glob= require('glob')
 const ejs = require('ejs')
 
-const Command = require('@huaxia-cli/command')
-const Package = require('@huaxia-cli/package')
-const {spinnerStart, sleep, execAsync} = require('@huaxia-cli/utils')
-const log = require('@huaxia-cli/log')
+const Command = require('@hxfy-cli/command')
+const Package = require('@hxfy-cli/package')
+const {spinnerStart, sleep, execAsync} = require('@hxfy-cli/utils')
+const log = require('@hxfy-cli/log')
 const getProjectTemplate = require('./getProjectTemplate')
 const TYPE_PROJECT = 'project'
 const TYPE_COMPONENT = 'component'
@@ -177,8 +177,8 @@ class InitCommand extends Command {
     async downloadTemplate() {
         const { projectTemplate } = this.projectInfo
         const templateInfo = this.template.find(item => item.npmName === projectTemplate)
-        const targetPath = path.resolve(userHome, '.huaxia-cli', 'template')
-        const storeDir = path.resolve(userHome, '.huaxia-cli', 'template', 'node_modules')
+        const targetPath = path.resolve(userHome, '.hxfy-cli', 'template')
+        const storeDir = path.resolve(userHome, '.hxfy-cli', 'template', 'node_modules')
         const {npmName, version} = templateInfo
         this.templateInfo = templateInfo
         const templateNpm = new Package({

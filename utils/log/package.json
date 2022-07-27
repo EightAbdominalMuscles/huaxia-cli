@@ -1,7 +1,7 @@
 {
-  "name": "@huaxia-cli/log",
+  "name": "@hxfy-cli/log",
   "version": "1.0.6",
-  "description": "huaxia-cli log",
+  "description": "hxfy-cli log",
   "author": "张玉 <zyjavascript@163.com>",
   "homepage": "",
   "license": "ISC",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:EightAbdominalMuscles/huaxia-cli.git"
+    "url": "git@github.com:EightAbdominalMuscles/hxfy-cli.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
@@ -26,5 +26,5 @@
   "dependencies": {
     "npmlog": "^6.0.0"
   },
-  "gitHead": "9e3a3634f0dc36ade0624eb417462f0d0e038022"
+  "gitHead": "03c9f457bcff31bde5f07597cffcd1831ddcb8f7"
 }

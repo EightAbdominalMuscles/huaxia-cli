@@ -2,17 +2,17 @@
 # yarn lockfile v1
 
 
-"@huaxia-cli/format-path@file:../../utils/format-path":
+"@hxfy-cli/format-path@file:../../utils/format-path":
   version "1.0.0"
 
-"@huaxia-cli/get-npm-info@file:../../utils/get-npm-info":
+"@hxfy-cli/get-npm-info@file:../../utils/get-npm-info":
   version "1.0.5"
   dependencies:
     axios "^0.24.0"
     semver "^7.3.5"
     url-join "^4.0.1"
 
-"@huaxia-cli/utils@file:../../utils/utils":
+"@hxfy-cli/utils@file:../../utils/utils":
   version "1.0.5"
   dependencies:
     cli-spinner "^0.2.10"

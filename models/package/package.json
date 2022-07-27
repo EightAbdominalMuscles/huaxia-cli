@@ -1,7 +1,7 @@
 {
-  "name": "@huaxia-cli/package",
+  "name": "@hxfy-cli/package",
   "version": "1.0.6",
-  "description": "huaxia-cli npm model",
+  "description": "hxfy-cli npm model",
   "author": "张玉 <zyjavascript@163.com>",
   "homepage": "",
   "license": "ISC",
@@ -18,19 +18,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:EightAbdominalMuscles/huaxia-cli.git"
+    "url": "git@github.com:EightAbdominalMuscles/hxfy-cli.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@huaxia-cli/format-path": "^1.0.6",
-    "@huaxia-cli/get-npm-info": "^1.0.6",
-    "@huaxia-cli/utils": "^1.0.6",
+    "@hxfy-cli/format-path": "^1.0.6",
+    "@hxfy-cli/get-npm-info": "^1.0.6",
+    "@hxfy-cli/utils": "^1.0.6",
     "fs-extra": "^10.0.0",
     "npminstall": "^4.10.0",
     "path-exists": "^4.0.0",
     "pkg-dir": "^5.0.0"
   },
-  "gitHead": "9e3a3634f0dc36ade0624eb417462f0d0e038022"
+  "gitHead": "03c9f457bcff31bde5f07597cffcd1831ddcb8f7"
 }

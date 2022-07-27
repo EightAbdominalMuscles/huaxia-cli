@@ -2,6 +2,6 @@
 
 const exec = require('..');
 
-describe('@huaxia-cli/exec', () => {
+describe('@hxfy-cli/exec', () => {
     it('needs tests');
 });

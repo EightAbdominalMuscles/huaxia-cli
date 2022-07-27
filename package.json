@@ -1,7 +1,7 @@
 {
-  "name": "huaxia-cli",
+  "name": "hxfy-cli",
   "version": "1.0.1",
-  "description": "huaxia-cli dev",
+  "description": "hxfy-cli dev",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

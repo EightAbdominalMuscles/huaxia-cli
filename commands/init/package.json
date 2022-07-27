@@ -1,7 +1,7 @@
 {
-  "name": "@huaxia-cli/init",
+  "name": "@hxfy-cli/init",
   "version": "1.0.6",
-  "description": "huaxia-cli init",
+  "description": "hxfy-cli init",
   "author": "张玉 <zyjavascript@163.com>",
   "homepage": "",
   "license": "ISC",
@@ -18,17 +18,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:EightAbdominalMuscles/huaxia-cli.git"
+    "url": "git@github.com:EightAbdominalMuscles/hxfy-cli.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@huaxia-cli/command": "^1.0.6",
-    "@huaxia-cli/log": "^1.0.6",
-    "@huaxia-cli/package": "^1.0.6",
-    "@huaxia-cli/request": "^1.0.6",
-    "@huaxia-cli/utils": "^1.0.6",
+    "@hxfy-cli/command": "^1.0.6",
+    "@hxfy-cli/log": "^1.0.6",
+    "@hxfy-cli/package": "^1.0.6",
+    "@hxfy-cli/request": "^1.0.6",
+    "@hxfy-cli/utils": "^1.0.6",
     "ejs": "^3.1.6",
     "fs-extra": "^9.0.1",
     "glob": "^7.2.0",
@@ -36,5 +36,5 @@
     "kebab-case": "^1.0.1",
     "semver": "^7.3.5"
   },
-  "gitHead": "9e3a3634f0dc36ade0624eb417462f0d0e038022"
+  "gitHead": "03c9f457bcff31bde5f07597cffcd1831ddcb8f7"
 }

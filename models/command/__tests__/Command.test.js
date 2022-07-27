@@ -2,6 +2,6 @@
 
 const command = require('..');
 
-describe('@huaxia-cli/Command', () => {
+describe('@hxfy-cli/Command', () => {
     it('needs tests');
 });

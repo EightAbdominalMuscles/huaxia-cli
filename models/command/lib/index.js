@@ -1,8 +1,8 @@
 'use strict';
 const semver = require('semver')
 const colors = require('colors/safe')
-const log = require('@huaxia-cli/log')
-const {isObject} = require('@huaxia-cli/utils')
+const log = require('@hxfy-cli/log')
+const {isObject} = require('@hxfy-cli/utils')
 
 const LOWEST_NODE_VERSION = '12.0.0'
 
@@ -43,7 +43,7 @@ class Command {
         // 第二步，比对最低版本号
         const lowestVersion = LOWEST_NODE_VERSION
         if (!semver.gte(currentVersion, lowestVersion)) {
-            throw new Error(colors.red(`huaxia-cli 需要安装 v${lowestVersion} 以上版本的 Node.js`))
+            throw new Error(colors.red(`hxfy-cli 需要安装 v${lowestVersion} 以上版本的 Node.js`))
         }
     }
     init() {

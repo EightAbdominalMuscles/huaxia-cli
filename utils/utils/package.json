@@ -1,7 +1,7 @@
 {
-  "name": "@huaxia-cli/utils",
+  "name": "@hxfy-cli/utils",
   "version": "1.0.6",
-  "description": "huaxia-cli utils",
+  "description": "hxfy-cli utils",
   "author": "张玉 <zyjavascript@163.com>",
   "homepage": "",
   "license": "ISC",
@@ -19,7 +19,7 @@
   "scripts": {
     "test": "echo \"Run testing from utils\""
   },
-  "gitHead": "9e3a3634f0dc36ade0624eb417462f0d0e038022",
+  "gitHead": "03c9f457bcff31bde5f07597cffcd1831ddcb8f7",
   "dependencies": {
     "cli-spinner": "^0.2.10"
   }

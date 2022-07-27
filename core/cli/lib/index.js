@@ -13,8 +13,8 @@ const pathExists = require('path-exists').sync
 
 const pkg = require('../package.json')
 const constant = require('./const')
-const log = require('@huaxia-cli/log')
-const exec = require('@huaxia-cli/exec')
+const log = require('@hxfy-cli/log')
+const exec = require('@hxfy-cli/exec')
 const program = new Command()
 async function core() {
     // TODO
@@ -86,7 +86,7 @@ async function checkGlobalUpdate() {
     const currentVersion = pkg.version
     const npmName = pkg.name
     // 2. 调用npm API，获取所有版本号
-    const {getNpmSemverVersion} = require('@huaxia-cli/get-npm-info')
+    const {getNpmSemverVersion} = require('@hxfy-cli/get-npm-info')
     const lastVersions = await getNpmSemverVersion(currentVersion, npmName)
     // 3. 提取所有版本号，对比那些版本号大于当前版本号
     // 4.获取最新的版本号。提示用户更新到该版本

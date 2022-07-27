@@ -1,11 +1,11 @@
 'use strict';
 const path = require('path')
 
-const Package = require('@huaxia-cli/package')
-const log = require('@huaxia-cli/log')
-const {exec: spawn} = require('@huaxia-cli/utils')
+const Package = require('@hxfy-cli/package')
+const log = require('@hxfy-cli/log')
+const {exec: spawn} = require('@hxfy-cli/utils')
 const SETTINGS = {
-    init: '@huaxia-cli/init'
+    init: '@hxfy-cli/init'
 }
 const CACHE_DIR = 'dependencies'
 let pkg

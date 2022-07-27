@@ -1,11 +1,11 @@
-# `@huaxia-cli/format-path`
+# `@hxfy-cli/format-path`
 
 > TODO: description
 
 ## Usage
 
 ```
-const formatPath = require('@huaxia-cli/format-path');
+const formatPath = require('@hxfy-cli/format-path');
 
 // TODO: DEMONSTRATE API
 ```
