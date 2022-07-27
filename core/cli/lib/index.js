@@ -3,7 +3,7 @@
 
 module.exports = core;
 const path = require('path')
-const {homedir: userHome} = require('os')
+const userHome = require('os').homedir()
 
 const {Command} = require('commander')
 const semver = require('semver')
@@ -16,7 +16,6 @@ const constant = require('./const')
 const log = require('@huaxia-cli/log')
 const exec = require('@huaxia-cli/exec')
 const program = new Command()
-
 async function core() {
     // TODO
     try{
@@ -74,6 +73,7 @@ function registerCommand () {
     
 }
 async function prepare() {
+    debugger
     checkPkgVerison()
     checkRoot()
     checkUserHome()
@@ -120,6 +120,7 @@ function createDefaultConfig() {
 }
 
 function checkUserHome() {
+    debugger
     if (!userHome || !pathExists(userHome)) {
         throw new Error(colors.red('当前登录用户主目录不存在！'))
     }
