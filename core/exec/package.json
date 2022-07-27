@@ -24,8 +24,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@huaxia-cli/log": "file:../../utils/log",
-    "@huaxia-cli/package": "file:../../models/package",
-    "@huaxia-cli/utils": "file:../../utils/utils"
-  }
+    "@huaxia-cli/log": "^1.0.3",
+    "@huaxia-cli/package": "^1.0.3",
+    "@huaxia-cli/utils": "^1.0.1"
+  },
+  "gitHead": "1fb6f302162601683cc105227c855fd1ef109677"
 }

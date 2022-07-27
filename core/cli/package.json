@@ -20,10 +20,10 @@
     "huaxia-cli": "bin/index.js"
   },
   "dependencies": {
-    "@huaxia-cli/exec": "file:../exec",
-    "@huaxia-cli/get-npm-info": "file:../../utils/get-npm-info",
-    "@huaxia-cli/init": "file:../../commands/init",
-    "@huaxia-cli/log": "file:../../utils/log",
+    "@huaxia-cli/exec": "^1.0.3",
+    "@huaxia-cli/get-npm-info": "^1.0.3",
+    "@huaxia-cli/init": "^1.0.5",
+    "@huaxia-cli/log": "^1.0.3",
     "colors": "^1.4.0",
     "commander": "^8.3.0",
     "dotenv": "^10.0.0",
@@ -36,5 +36,5 @@
   "scripts": {
     "test": "echo \"Run testing from core\""
   },
-  "gitHead": "efae229fa3457960a3c55625c7003a03cedba1f2"
+  "gitHead": "1fb6f302162601683cc105227c855fd1ef109677"
 }

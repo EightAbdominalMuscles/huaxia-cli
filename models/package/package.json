@@ -24,12 +24,13 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@huaxia-cli/format-path": "file:../../utils/format-path",
-    "@huaxia-cli/get-npm-info": "file:../../utils/get-npm-info",
-    "@huaxia-cli/utils": "file:../../utils/utils",
+    "@huaxia-cli/format-path": "^1.0.3",
+    "@huaxia-cli/get-npm-info": "^1.0.3",
+    "@huaxia-cli/utils": "^1.0.1",
     "fs-extra": "^10.0.0",
     "npminstall": "^4.10.0",
     "path-exists": "^4.0.0",
     "pkg-dir": "^5.0.0"
-  }
+  },
+  "gitHead": "1fb6f302162601683cc105227c855fd1ef109677"
 }
