@@ -2,6 +2,7 @@
 
 const path = require('path')
 const fs = require('fs');
+const {homedir: userHome} = require('os')
 
 
 const inquirer = require('inquirer')
@@ -13,7 +14,6 @@ const ejs = require('ejs')
 const Command = require('@huaxia-cli/command')
 const Package = require('@huaxia-cli/package')
 const {spinnerStart, sleep, execAsync} = require('@huaxia-cli/utils')
-const userHome = require('user-home')
 const log = require('@huaxia-cli/log')
 const getProjectTemplate = require('./getProjectTemplate')
 const TYPE_PROJECT = 'project'

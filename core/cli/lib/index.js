@@ -3,11 +3,12 @@
 
 module.exports = core;
 const path = require('path')
+const {homedir: userHome} = require('os')
 
 const {Command} = require('commander')
 const semver = require('semver')
 const colors = require('colors/safe')
-const userHome = require('user-home')
+
 const pathExists = require('path-exists').sync
 
 const pkg = require('../package.json')
